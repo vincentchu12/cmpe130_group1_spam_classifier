@@ -3,7 +3,7 @@
 In order to run Flask app,
 1. Clone Repo
 2. Run command "export FLASK_APP=app.py"
-    2a. Code may require certain packages be downloaded in order to run 
+    1. Code may require certain packages be downloaded in order to run 
 3. flask run
 4. Open browser and go to http://localhost:5000/
 5. Once web app opens,
