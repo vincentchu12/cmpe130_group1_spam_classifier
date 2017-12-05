@@ -15,5 +15,5 @@ In order to run Flask app,
     4. You may observe:
         1. Ham Word Cloud: displays words often used in legitimate comments. 
         2. Spam Word Cloud: displays words often used in spam comments
-        3. Ham Word Frequency: displays all words used in legitimate comments and how many times they appeared
-        4. Spam Word Frequency: displays all words used in spam comments and how many times they appeared.
+        3. Ham Word Frequency: displays top 100 words used in legitimate comments and how many times they appeared
+        4. Spam Word Frequency: displays top 100 words used in spam comments and how many times they appeared.
