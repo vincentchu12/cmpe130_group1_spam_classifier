@@ -7,12 +7,12 @@ In order to run Flask app,
 3. flask run
 4. Open browser and go to http://localhost:5000/
 5. Once web app opens,
-    a. Enter a comment
-    b. Click "Submit" to test comment
-    c. Result will be displayed as "Spam" or "Ham"
-        where "Spam" means it is considered a Spam comment and
+    1. Enter a comment
+    2. Click "Submit" to test comment
+    3. Result will be displayed as "Spam" or "Ham"
+       where "Spam" means it is considered a Spam comment and
         "Ham" means it is a legitimate comment.
-    d. You may observe:
+    4. You may observe:
         1. Ham Word Cloud: displays words often used in legitimate comments. 
         2. Spam Word Cloud: displays words often used in spam comments
         3. Ham Word Frequency: displays all words used in legitimate comments and how many times they appeared
