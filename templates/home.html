@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Youtube Spam Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="title"><h1>Youtube Spam Classifier</h1></div>
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#classifier">Classifier</a></li>
+            <li><a data-toggle="pill" href="#ham_wc">Ham Word Cloud</a></li>
+            <li><a data-toggle="pill" href="#spam_wc">Spam Word Cloud</a></li>
+            <li><a data-toggle="pill" href="#ham_frq">Ham Word Frequency</a></li>
+            <li><a data-toggle="pill" href="#spam_frq">Spam Word Freqeuncy</a></li>
+        </ul>
+        <br/>
+        <div class="tab-content">
+            <div id="classifier" class="tab-pane fade in active">
+                    {% if results %}
+                    <h1>{{label}}</h1>
+                    <form method='POST'>
+                        <textarea rows="10" cols="100" name="comment" placeholder="Please enter a comment to test">{{comment}}</textarea>
+                        <button class="button" type="submit" value="Submit">Submit</button>
+                    </form>
+                    {% else %}
+                    <form method='POST'>
+                        <textarea rows="10" cols="100" name="comment" placeholder="Please enter a comment to test"></textarea>
+                        <button class="button" type="submit" value="Submit">Submit</button>
+                    </form>
+                    {% endif %}
+            </div>
+            <div id="ham_wc" class="tab-pane fade">
+                <img src="{{ url_for('static', filename='ham_word_cloud.png') }}">
+            </div>
+            <div id="spam_wc" class="tab-pane fade">
+                <img src="{{ url_for('static', filename='spam_word_cloud.png') }}">
+            </div>
+            <div id="ham_frq" class="tab-pane fade">
+                <img src="{{ url_for('static', filename='ham_word_freq.png') }}">
+            </div>
+            <div id="spam_frq" class="tab-pane fade">
+                <img src="{{ url_for('static', filename='spam_word_freq.png') }}">
+            </div>
+        </div>
+    </div>
+</body>
