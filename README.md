@@ -2,7 +2,7 @@
 
 Python Version: Python 3.6.1
 
-The following python packages are required:
+The following python packages are required:  
     beautifulsoup4==4.6.0  
     bs4==0.0.1  
     click==6.7  
