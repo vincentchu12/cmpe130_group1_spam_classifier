@@ -1,4 +1,8 @@
 "# cmpe130_group1_spam_classifier"
+Jupyter Notebook
+1. Jupyter Notebook is required to run the "Spam Detection.ipynb"
+2. The cells can be run one-by-one, but can also be ran all at once.
+3. Output is shown in below in their respective cells.
 
 In order to run Flask app,
 1. Clone Repo
