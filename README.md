@@ -3,26 +3,26 @@
 Python Version: Python 3.6.1
 
 The following python packages are required:
-    beautifulsoup4==4.6.0
-    bs4==0.0.1
-    click==6.7
-    cycler==0.10.0
-    Flask==0.12.2
-    itsdangerous==0.24
-    Jinja2==2.10
-    MarkupSafe==1.0
-    matplotlib==2.1.0
-    nltk==3.2.5
-    numpy==1.13.3
-    olefile==0.44
-    pandas==0.21.0
-    Pillow==4.3.0
-    pyparsing==2.2.0
-    python-dateutil==2.6.1
-    pytz==2017.3
-    six==1.11.0
-    Werkzeug==0.13
-    wordcloud==1.3.1
+    beautifulsoup4==4.6.0  
+    bs4==0.0.1  
+    click==6.7  
+    cycler==0.10.0  
+    Flask==0.12.2  
+    itsdangerous==0.24  
+    Jinja2==2.10  
+    MarkupSafe==1.0  
+    matplotlib==2.1.0  
+    nltk==3.2.5  
+    numpy==1.13.3  
+    olefile==0.44  
+    pandas==0.21.0  
+    Pillow==4.3.0  
+    pyparsing==2.2.0  
+    python-dateutil==2.6.1  
+    pytz==2017.3  
+    six==1.11.0  
+    Werkzeug==0.13  
+    wordcloud==1.3.1  
 
 Jupyter Notebook
 1. Jupyter Notebook is required to run the "Spam Detection.ipynb"
